@@ -1,0 +1,56 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+/* Interface 1 */
+.container1{
+	display: flex;
+	justify-content: space-around;
+
+}
+.box_1{
+	flex-direction: column;
+	padding: 30px;
+}
+.img{
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+}
+.sanglier{
+	background-image: url("../images/sanglier.png");
+}
+.coca{
+	background-image: url("../images/coca.png");
+}
+.git{
+	background-image: url("../images/git.png");
+}
+.npm{
+	background-image: url("../images/npm.png");
+}
+.box_1 h2{
+	font-weight: lighter;
+	font-size: 19px;
+	color: green;
+}
+.box_1 p{
+	font-size: 13px;
+	color: grey;
+	margin-top: -10px;
+}
+/* Interface 2 */
+
+/* Interface 3 */
+
+/* responsive */
+@media screen and (max-width: 800px){
+	.container1{
+		display: block;
+	}
+	.box_1{
+		width: 200px;
+		margin: auto;
+	}
+}
