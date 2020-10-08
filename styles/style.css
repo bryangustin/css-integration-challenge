@@ -45,7 +45,29 @@ section{
 	margin-top: -10px;
 }
 /* Interface 2 */
-
+.container2{
+	background-color: rgb(70,143,229);
+	width: 350px;
+}
+.box_2{
+	margin: 20px;
+	padding: 20px;
+}
+.graph_tab{
+	width: 276px;
+}
+.graphique{
+	background-image: url("../images/graphique.png");
+	background-size: cover;
+	width: 276px;
+	height: 79px;
+}
+.right{
+	text-align: right;
+}
+hr{
+	margin-top: -20px;
+}
 /* Interface 3 */
 .container_3{
 	display: flex;
