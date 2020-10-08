@@ -1,6 +1,10 @@
 body{
 	font-family: 'Roboto', sans-serif;
 }
+section{
+	margin:auto;
+	padding: 30px;
+}
 /* Interface 1 */
 .container1{
 	display: flex;
@@ -43,9 +47,73 @@ body{
 /* Interface 2 */
 
 /* Interface 3 */
+.container_3{
+	display: flex;
+	border: solid grey 1px;
+	width: 600px;
+	height: 300px;
+	margin: auto;
+	box-shadow: 0px 0px 10px  grey;
+}
+.name{
+	display: flex;
+	margin-top: 80px;
+}
+.imgbig{
+	background-image: url("https://picsum.photos/300/400");
+	background-size: cover;
+	width: 40%;
+	height: 300px;
+}
+.box_3{
+	width: 60%;
+}
+.imglittle{
+	background-image: url("https://picsum.photos/50");
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.box_text{
+	margin: auto;
+	margin-top: -20px;
+}
+.title{
+	font-size: 22px;
+}
+.text{
+	font-size: 15px;
+	color: grey;
+}
+.box_3{
+	padding: 30px;
+}
+.box_text_2{
+	padding-left: 15px;
 
+}
+.title_2{
+	font-size: 14px;
+	display: block;
+}
+.text_2{
+	font-size: 12px;
+	color: grey;
+
+	margin-top: -10px;
+}
+.bookmark{
+	color: grey;
+}
+.boxy{
+	display: flex;
+}
+.chevron{
+	margin-left: 100px;
+}
 /* responsive */
 @media screen and (max-width: 800px){
+	
 	.container1{
 		display: block;
 	}
